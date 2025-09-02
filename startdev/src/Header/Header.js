@@ -8,14 +8,14 @@ function Header() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const handleLinkClick = (e, sectionId) => {
-      e.preventDefault();
-      const element = document.getElementById(sectionId);
-      if (element) {
-          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          setMobileMenuOpen(false);
-      }
-  };
+//   const handleLinkClick = (e, sectionId) => {
+//       e.preventDefault();
+//       const element = document.getElementById(sectionId);
+//       if (element) {
+//           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+//           setMobileMenuOpen(false);
+//       }
+//   };
 
   return (
       <nav className="sticky top-0 w-full z-50 bg-black/90 backdrop-blur-sm">

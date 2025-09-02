@@ -1,5 +1,6 @@
 {
-  "name": "startdev",
+  "name": "hhndmarketing",
+  "homepage": "https://www.hhndmarketing.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

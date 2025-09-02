@@ -3,17 +3,22 @@ import logo from './assets/logoBrain.svg';
 import './App.css';
 import { Link } from 'react-router-dom';
 import Header from './Header/Header.js';
-import Main from './Main/Main.js';
+import Hero from './Main/Hero.js';
+import Services from './Main/Services.js';
+import FAQ from './Main/FAQ.js';
+import Contact from './Footer/Contact.js';
 import Footer from './Footer/Footer.js';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-black text-white">
       <Header />
-      <Main />
+      <Hero />
+      <Services />
+      <FAQ />
+      <Contact />
       <Footer />
-      <h1 className="text-3xl font-bold underline">Testing TailwindCSS</h1>
     </div>
   );
 }
